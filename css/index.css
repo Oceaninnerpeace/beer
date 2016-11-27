@@ -71,7 +71,13 @@ p#down{
 	line-height: 20px;
 	position: relative;
 }
-
+.go{
+	animation: go .5s linear infinite;
+}
+@keyframes go{
+	0%{top:0}
+	100%{top:3px}
+}
 
 
 
